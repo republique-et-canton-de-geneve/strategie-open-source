@@ -51,4 +51,4 @@ Cette charte est divisée en 8 domaines. Les responsables de publication(1) de c
 
 ***Note : (1)*** Le "responsable de publication" est une personne de l'équipe du projet qui s'occupe du processus de publication sur GitHub. Ce rôle peut être tenu par une ou plusieurs personnes, par exemple un ou plusieurs développeurs.
 
-Pour toute demande d'information ou de support, le mieux est de créer une fiche Jira dans le projet Jira OPENSRC. L'équipe - Yves Dubois-Pèlerin, Aurélien De Fanti, Jérémy Meunier - se fera un plaisir de vous répondre et de vous aider.
+Pour toute demande d'information ou de support, le mieux est de créer une fiche Jira dans le projet Jira OPENSRC. L'équipe se fera un plaisir de vous répondre et de vous aider.
