@@ -4,6 +4,7 @@
 **GitHub de la République et Canton de Genève.**
 
 (Version 0.1 - Brouillon)
+(Ce document est a usage de l'OCSIN, il est publié ici pour information, mais peut contenir des liens non fonctionnels hors services IT)
 
 Cette page décrit les points auxquels le développeur s'engage à veiller avant de publier son code en open source sur : [https://github.com/republique-et-canton-de-geneve](https://github.com/republique-et-canton-de-geneve)
 
@@ -16,7 +17,7 @@ Cette charte est divisée en 8 domaines. Les responsables de publication(1) de c
 
 **Confidentialité**  : L'exposition des sources de GitHub ne doit pas fournir d'informations d'attaque aux personnes mal intentionnées, en s'assurant que les secrets ont été éliminés, tant dans les sources _que dans l'historique des sources_.
 
- - Par "secret" on entend toute information sensible, pas seulement les mots de passe : les noms d'utilisateurs, les noms de machines, les URL internes à l'État, notamment. La procédure recommandée est de scanner les dépôts GitLab, de façon préventive, cf. [IC-940](https://prod.etat-ge.ch/csbugtrack/browse/IC-940). (A CONTINUER)
+ - Par "secret" on entend toute information sensible, pas seulement les mots de passe : les noms d'utilisateurs, les noms de machines, les URL internes à l'État, notamment. La procédure recommandée est de scanner les dépôts GitLab, de façon préventive. (A CONTINUER)
  - Pour éliminer les secrets déjà présents dans l'historique des sources, prendre contact avec le SMIL.
 
 **Sécurité**  : Les sources publiées ne doivent pas contenir de failles de sécurité dont un pirate pourrait profiter pour attaquer l'application en production, en s'assurant qu'un scan de vulnérabilités des dépendances avec l'outil Nexus IQ ainsi qu'unqu'une analyse SonarQube de détection de failles de sécurité dans le code ont été exécutés et leurs résultats analysés.
