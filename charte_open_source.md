@@ -4,6 +4,7 @@
 **GitHub de la République et Canton de Genève.**
 
 (Version 0.1 - Brouillon)
+
 (Ce document est a usage de l'OCSIN, il est publié ici pour information, mais peut contenir des liens non fonctionnels hors services IT)
 
 Cette page décrit les points auxquels le développeur s'engage à veiller avant de publier son code en open source sur : [https://github.com/republique-et-canton-de-geneve](https://github.com/republique-et-canton-de-geneve)
