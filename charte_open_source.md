@@ -5,7 +5,7 @@
 
 (Version 0.1 - Brouillon)
 
-(Ce document est a usage de l'OCSIN, il est publié ici pour information, mais peut contenir des liens non fonctionnels hors services IT)
+(Ce document est a usage de l'[OCSIN](https://www.ge.ch/organisation/office-cantonal-systemes-information-du-numerique-ocsin), il est publié ici pour information, mais peut contenir des liens non fonctionnels hors services IT)
 
 Cette page décrit les points auxquels le développeur s'engage à veiller avant de publier son code en open source sur : [https://github.com/republique-et-canton-de-geneve](https://github.com/republique-et-canton-de-geneve)
 
@@ -18,16 +18,16 @@ Cette charte est divisée en 8 domaines. Les responsables de publication(1) de c
 
 **Confidentialité**  : L'exposition des sources de GitHub ne doit pas fournir d'informations d'attaque aux personnes mal intentionnées, en s'assurant que les secrets ont été éliminés, tant dans les sources _que dans l'historique des sources_.
 
- - Par "secret" on entend toute information sensible, pas seulement les mots de passe : les noms d'utilisateurs, les noms de machines, les URL internes à l'État, notamment. La procédure recommandée est de scanner les dépôts GitLab, de façon préventive. (A CONTINUER)
+ - Par "secret" on entend toute information sensible, pas seulement les mots de passe : les noms d'utilisateurs, les noms de machines, les URL internes à l'État, notamment. La procédure recommandée est de scanner les dépôts GitLab, de façon préventive.
  - Pour éliminer les secrets déjà présents dans l'historique des sources, prendre contact avec le SMIL.
 
-**Sécurité**  : Les sources publiées ne doivent pas contenir de failles de sécurité dont un pirate pourrait profiter pour attaquer l'application en production, en s'assurant qu'un scan de vulnérabilités des dépendances avec l'outil Nexus IQ ainsi qu'unqu'une analyse SonarQube de détection de failles de sécurité dans le code ont été exécutés et leurs résultats analysés.
+**Sécurité**  : Les sources publiées ne doivent pas contenir de failles de sécurité dont un pirate pourrait profiter pour attaquer l'application en production, en s'assurant qu'un scan de vulnérabilités des dépendances avec ainsi qu'unqu'une analyse de détection de failles de sécurité dans le code ont été exécutés avec les outils disponibles à l'OCSIN et leurs résultats analysés.
 
- - Le développeur mène ces actions non seulement avant publication, mais aussi par la suite. Si le code n'est stocké que sur GitHub (et non sur le GitLab interne), alors le développeur devrait mener une analyse SonarCloud.
+ - Le développeur mène ces actions non seulement avant publication, mais aussi par la suite. Si le code n'est stocké que sur GitHub (et non sur le GitLab interne), alors le développeur devrait mener une analyse avec l'un des outils disponibles à l'OCSIN.
 
 **Licence**  : Le fait de ne pas indiquer de licence sur un code publié crée une incertitude juridique sur celui-ci. Il faut donc s'assurer que les sources incluent un fichier de licence des leur publication.
 
- - Si on a n'a pas d'idée sur la licence à utiliser, choisir la licence par défaut de l'État : AGPL v3. Si besoin, se référer à [cette page](https://github.com/republique-et-canton-de-geneve/squelette-github).
+ - Si on a n'a pas d'idée sur la licence à utiliser, choisir la licence par défaut de l'État : [AGPL v3](https://www.gnu.org/licenses/agpl-3.0.fr.html). Si besoin, se référer à [cette page](https://github.com/republique-et-canton-de-geneve/squelette-github).
 
 **Isolement**  : Un utilisateur externe qui clone un dépôt GitHub doit être en mesure de construire le logiciel (build) et de l'exécuter, sans être bloqué par des adhérences sur des briques propres à l'État, comme Gina ou un service web interne.
 
@@ -36,9 +36,9 @@ Cette charte est divisée en 8 domaines. Les responsables de publication(1) de c
 **Qualité**  : Le code exposé sur GitHub participe à la réputation de l'État, il doit donc être de qualité. Des tests unitaires doivent notamment être présents.
 
  - Il convient de s'assurer que le code est soumis à l'analyse SonarQube, que les failles détectées ont été éliminées et que le taux de couverture par les tests unitaires est satisfaisant.
- - Une fois que le code est publié sur GitHub, il faut également s'assurer que le code est soumis à l'analyse SonarCloud, via une Action dans GitHub
+ - Une fois que le code est publié sur GitHub, il faut également s'assurer que le code est soumis à l'analyse par l'un des outils disponibles à l'OCSIN, via une Action dans GitHub
  - Cette qualité de code sert en retour la qualité de l'application en production en interne.
- - Pour l'analyse SonarCloud, un exemple de configuration est fourni par le projet [gitSync](https://github.com/republique-et-canton-de-geneve/git-sync/blob/master/.github/workflows/maven.yml). 
+ - Un exemple de configuration d'analyse est fourni par le projet [gitSync](https://github.com/republique-et-canton-de-geneve/git-sync/blob/master/.github/workflows/maven.yml). 
  - Le SMIL est à disposition pour fournir du support (voir plus bas).
 
 **Documentation**  : Le code exposé sur GitHub participe à la réputation de l'État, il doit donc être correctement commenté, en s'assurant qu'un fichier README exhaustif est inclus dans les sources et que lecode est commenté, avec une attention particulière pour les interfaces.
