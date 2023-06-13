@@ -14,4 +14,4 @@ a établi une stratégie de promotion de l'open source en son sein.
 
 ## Charte de publication
 
-[![](./images/charte.jpg)](./charte.pdf)
+[![](./images/charte.jpg)](./charte_open_source.md)
