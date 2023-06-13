@@ -12,10 +12,6 @@ a établi une stratégie de promotion de l'open source en son sein.
 
 [![](./images/strategie.jpg)](./strategie_open_source_v09.pdf)
 
-## Charte
+## Charte de publication
 
-La publication sur la
-[page GitHub de l'État](https://github.com/republique-et-canton-de-geneve)
-est permise à toutes les équipes de développement, moyennant l'adhésion
-de celles-ci à la
-[charte open source](./charte_open_source.md).
+[![](./images/charte.jpg)](./charte.pdf)
