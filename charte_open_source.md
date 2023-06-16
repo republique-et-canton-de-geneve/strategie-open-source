@@ -99,7 +99,6 @@ l'équipe s'assure que ce code est de qualité.
   en interne.
 - Un exemple de configuration d'analyse est fourni par le projet
   [gitSync](https://github.com/republique-et-canton-de-geneve/git-sync/blob/master/.github/workflows/maven.yml). 
- - Le SMIL est à disposition pour fournir du support (voir plus bas).
 
 **7. Documentation**
 
