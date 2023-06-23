@@ -15,3 +15,11 @@ a établi une stratégie de promotion de l'open source en son sein.
 ## Charte de publication
 
 [![](./images/charte.jpg)](./charte_open_source.md)
+
+#### Note
+Les documents contenus dans ce dépôt Git sont en libre accès
+(ils sont juste soumis à la licence indiquée
+[ici](./LICENSE.md)),
+à l'exception de l'écusson de l'État de Genève, pour lequel des
+[droits spécifiques](https://www.ge.ch/document/armoiries-republique-du-canton-geneve)
+s'appliquent.
