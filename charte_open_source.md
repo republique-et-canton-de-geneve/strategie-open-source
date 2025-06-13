@@ -65,11 +65,22 @@ Comme le fait de ne pas indiquer de licence sur un code publié crée une incert
 juridique sur celui-ci, l'équipe s'assure que les sources publiées incluent un
 fichier de licence.
 
-- Si l'équipe n'a pas d'idée sur la licence à utiliser, elle peut choisir l'une des
-  licences choisies par défaut pour les publications de l'État :
-  [AGPL v3](https://spdx.org/licenses/AGPL-3.0-only.html) ou [Apache-2.0](https://spdx.org/licenses/Apache-2.0.html).
-  Si besoin, se référer à
-  [cette page](https://github.com/republique-et-canton-de-geneve/squelette-github).
+- Pour un projet Git contenant principalement du code, l'équipe
+  choisira de préférence la licence permissive
+  [Apache 2.0](https://spdx.org/licenses/Apache-2.0.html)
+  choisie par l'État comme licence par défaut,
+  soit une des licences virales
+  [AGPL 3](https://spdx.org/licenses/AGPL-3.0-only.html)
+  et
+  [EUPL](https://spdx.org/licenses/EUPL-1.2.html).
+- Pour un projet Git contenant principalement de la documentation, l'équipe
+  choisira de préférence la licence permissive
+  [Creative Commons BY](https://spdx.org/licenses/CC-BY-2.5.html)
+  choisie par l'État comme licence par défaut,
+  soit la licence virale
+  [Creative Commons BY-SA](https://spdx.org/licenses/CC-BY-SA-2.0.html).
+- Si l'équipe estime avoir de bonnes raisons de choisir une autre licence, elle est
+  priée de prendre contact avec le comité open source de l'État.
 
 **5. Isolation**
 
