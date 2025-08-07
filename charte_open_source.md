@@ -67,17 +67,17 @@ fichier de licence.
 
 - Pour un projet Git contenant principalement du code, l'équipe
   choisira de préférence la licence permissive
-  [Apache 2.0](https://spdx.org/licenses/Apache-2.0.html)
+  [Apache 2.0](https://spdx.org/licenses/Apache-2.0.html),
   choisie par l'État comme licence par défaut,
-  soit une des licences virales
+  ou l'une des licences virales
   [AGPL 3](https://spdx.org/licenses/AGPL-3.0-only.html)
   et
   [EUPL](https://spdx.org/licenses/EUPL-1.2.html).
 - Pour un projet Git contenant principalement de la documentation, l'équipe
   choisira de préférence la licence permissive
-  [Creative Commons BY](https://spdx.org/licenses/CC-BY-2.5.html)
+  [Creative Commons BY](https://spdx.org/licenses/CC-BY-2.5.html),
   choisie par l'État comme licence par défaut,
-  soit la licence virale
+  ou la licence virale
   [Creative Commons BY-SA](https://spdx.org/licenses/CC-BY-SA-2.0.html).
 - Si l'équipe estime avoir de bonnes raisons de choisir une autre licence, elle est
   priée de prendre contact avec le comité open source de l'État.
