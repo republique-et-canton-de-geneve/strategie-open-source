@@ -88,12 +88,15 @@ Comme un utilisateur externe qui clone un dépôt GitHub doit être en mesure de
 construire le logiciel (build) et de l'exécuter,
 l'équipe s'assure que le code ne contient aucune adhérence sur des briques propres
 à l'État, comme Gina ou un service web interne.
-
-- Il faut s'assurer que les adhérences sont bouchonnées, tant en ce qui concerne
+- Il faut éviter les dépendances sur des bibliothèques non open source
+- Si le code contient des adhérences sur des briques propres à l'État, comme le service
+  Gina ou un service web interne,
+  il faut s'assurer que ces adhérences sont bouchonnées, tant en ce qui concerne
   les dépendances que dans le code lui-même.
-  Si cela s'avère impossible, il convient de mentionner clairement dans le README
-  que la construction ou l'exécution du livrable est impossible et que donc le
-  code n'est publié sur GitHub que pour en permettre la consultation et l'étude.
+- S'il est clair que l'utilisateur externe sera dans l'impossibilité de
+  construire le logiciel, il convient de mettre en évidence cette limitation
+  dans la documentation du logiciel, par exemple en avertissant que le code
+  n'est publié qu'à des fins de transparence et non de partage.
 
 **6. Qualité**
 
