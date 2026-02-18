@@ -2,7 +2,7 @@
 
 L'Office cantonal des systèmes informatiques et du numérique (OCSIN),
 responsable des services informatique de l'État de Genève,
-a établi une stratégie de promotion de l'open source en son sein.
+a établi une stratégie de mise en œuvre de l'open source en son sein.
 
 ## 1) Stratégie : résumé
 
