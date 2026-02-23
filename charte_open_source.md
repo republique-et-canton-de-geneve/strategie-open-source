@@ -23,14 +23,14 @@ Comme l'autorisation de publier le code sur GitHub est d'emblée acquise,
 l'équipe s'assure simplement de l'accord des parties prenantes.
 
 - La diffusion en open source est non seulement autorisée, mais aussi recommandée
-  par l'OCSIN qui a même défini et avalisé une
+  par l'OCSIN, qui a même défini et avalisé une
   [stratégie open source](https://github.com/republique-et-canton-de-geneve/strategie-open-source).
 - Chaque manager soutient son équipe et établit les conditions de contrôle des
   éléments de la charte.
 
 **2. Confidentialité**
 
-Comme l'exposition des sources de GitHub ne doit pas fournir d'informations
+Comme l'exposition des sources sur GitHub ne doit pas fournir d'informations
 d'attaque aux personnes mal intentionnées,
 l'équipe s'assure qu'elle a éliminé
 tous les secrets, tant dans les sources _que dans l'historique des sources_.
