@@ -19,12 +19,13 @@ ou plusieurs développeurs.
 
 **1. Autorisation de publier**
 
-Comme l'autorisation de publier le code sur GitHub est d'emblée acquise,
-l'équipe s'assure simplement de l'accord des parties prenantes.
+La publication du code sur GitHub est recommandée.
 
-- La diffusion en open source est non seulement autorisée, mais aussi recommandée
-  par l'OCSIN, qui a même défini et avalisé une
+£- La diffusion en open source est non seulement autorisée, mais aussi recommandée
+  par la direction de l'OCSIN, qui a même défini et avalisé une
   [stratégie open source](https://github.com/republique-et-canton-de-geneve/strategie-open-source).
+- Dans le cas d'une application métier, la publication requiert un double
+  accord : celui du métier et celui de la hiérarchie. 
 - Chaque manager soutient son équipe et établit les conditions de contrôle des
   éléments de la charte.
 
