@@ -17,19 +17,30 @@ ou plusieurs développeurs.
 
 ## La charte
 
-**1. Autorisation de publier**
+**1. Public concerné**
 
-La publication du code sur GitHub est recommandée.
+Comme la [page GitHub de l'Etat](https://github.com/republique-et-canton-de-geneve) est
+celle de l'administration du canton de Genève,
+elle est destinée à accueillir les publications des employés de
+tout le "petit État", et donc pas uniquement de l'OCSIN.
+Elle est cependant gérée par l'OCSIN.
 
-£- La diffusion en open source est non seulement autorisée, mais aussi recommandée
-  par la direction de l'OCSIN, qui a même défini et avalisé une
-  [stratégie open source](https://github.com/republique-et-canton-de-geneve/strategie-open-source).
-- Dans le cas d'une application métier, la publication requiert un double
-  accord : celui du métier et celui de la hiérarchie. 
-- Chaque manager soutient son équipe et établit les conditions de contrôle des
-  éléments de la charte.
+**2. Autorisation de publier**
 
-**2. Confidentialité**
+Comme la direction de l'OCSIN désire promouvoir la publication du code en open source,
+elle a avalisé une
+[stratégie open source](https://github.com/republique-et-canton-de-geneve/strategie-open-source).
+La publication est donc non seulement autorisée, mais recommandée.
+Toutefois :
+- Pour la publication d'un composant logiciel métier, la publication requiert un double
+  accord : celui du métier et celui de la hiérarchie du responsable de publication.
+- Pour la publication d'un composant logiciel technique, la publication requiert le seul
+  accord de la hiérarchie du responsable de publication.
+ 
+Chaque manager soutient son équipe et établit les conditions de contrôle des
+éléments de la charte.
+
+**3. Confidentialité**
 
 Comme l'exposition des sources sur GitHub ne doit pas fournir d'informations
 d'attaque aux personnes mal intentionnées,
@@ -43,7 +54,7 @@ tous les secrets, tant dans les sources _que dans l'historique des sources_.
 - Pour éliminer les secrets déjà présents dans l'historique des sources, prendre
   contact avec l'équipe des Moyens de développement (voir plus bas).
 
-**3. Sécurité**
+**4. Sécurité**
 
 Comme les sources publiées ne doivent pas contenir de failles de sécurité dont
 une personne mal intentionnée pourrait profiter pour attaquer l'application
@@ -60,7 +71,7 @@ puis que leurs résultats ont été analysés.
 - L'équipe s'engage à rayer de la liste des mainteneurs du projet GitHub
   les membres qui ont quitté le projet ou l'OCSIN.
 
-**4. Licence**
+**5. Licence**
 
 Comme le fait de ne pas indiquer de licence sur un code publié crée une incertitude
 juridique sur celui-ci, l'équipe s'assure que les sources publiées incluent un
@@ -83,7 +94,7 @@ fichier de licence.
 - Si l'équipe estime avoir de bonnes raisons de choisir une autre licence, elle est
   priée de prendre contact avec le comité open source de l'État.
 
-**5. Isolation**
+**6. Isolation**
 
 Comme un utilisateur externe qui clone un dépôt GitHub doit être en mesure de
 construire le logiciel (build) et de l'exécuter,
@@ -99,7 +110,7 @@ l'équipe s'assure que le code ne contient aucune adhérence sur des briques pro
   dans la documentation du logiciel, par exemple en avertissant que le code
   n'est publié qu'à des fins de transparence et non de partage.
 
-**6. Qualité**
+**7. Qualité**
 
 Comme le code exposé sur GitHub participe à la réputation de l'État,
 l'équipe s'assure que ce code est de qualité.
@@ -115,7 +126,7 @@ l'équipe s'assure que ce code est de qualité.
 - Un exemple de configuration d'analyse est fourni par le projet
   [gitSync](https://github.com/republique-et-canton-de-geneve/git-sync/blob/master/.github/workflows/maven.yml). 
 
-**7. Documentation**
+**8. Documentation**
 
 Comme le code exposé sur GitHub participe à la réputation de l'État,
 l'équipe s'assure qu'il est correctement commenté.
@@ -125,7 +136,7 @@ l'équipe s'assure qu'il est correctement commenté.
 - Le code lui-même est commenté, avec une attention particulière pour les interfaces.
 
 
-**8. Suivi**
+**9. Suivi**
 
 Comme le respect fait partie des valeurs du monde de l'open source,
 l'équipe s'engage à traiter les éventuels retours de la communauté :
@@ -137,5 +148,5 @@ questions, propositions, pull requests, etc.
 ## Remarques
 
 Pour toute demande d'information ou de support, le mieux est de créer,
-à l'attention de l'équipe des Moyens de développement (SCLI),
-une fiche Jira dans le projet Jira OPENSRC.
+à l'attention de l'équipe des Moyens de développement (OCSIN-DSOL),
+une fiche dans le projet Jira OPENSRC.
