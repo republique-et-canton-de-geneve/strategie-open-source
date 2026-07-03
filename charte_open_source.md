@@ -30,11 +30,11 @@ Elle est cependant gérée par l'OCSIN.
 Comme la direction de l'OCSIN désire promouvoir la publication du code en open source,
 elle a avalisé une
 [stratégie open source](https://github.com/republique-et-canton-de-geneve/strategie-open-source).
-La publication est donc non seulement autorisée, mais recommandée.
+La publication est donc officiellement recommandée.
 Toutefois :
-- Pour la publication d'un composant logiciel métier, la publication requiert un double
+- Pour la publication d'un code source métier, la publication requiert un double
   accord : celui du métier et celui de la hiérarchie du responsable de publication.
-- Pour la publication d'un composant logiciel technique, la publication requiert le seul
+- Pour la publication d'un code source technique, la publication requiert le seul
   accord de la hiérarchie du responsable de publication.
  
 Chaque manager soutient son équipe et établit les conditions de contrôle des
